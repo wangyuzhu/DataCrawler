@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "ConsoleTest\Test.csproj", "{C85FF092-1D7E-4DD5-A017-F7EAFBE9D25F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apps.HtmlAgilityPackSpider", "Apps.HtmlAgilityPackSpider\Apps.HtmlAgilityPackSpider.csproj", "{36B733CD-3DB6-47BF-B17A-37B8E862A21A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apps.HtmlAgilityPackSpider", "Apps.HtmlAgilityPackSpider\Apps.HtmlAgilityPackSpider.csproj", "{36B733CD-3DB6-47BF-B17A-37B8E862A21A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,7 +26,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6A8C213C-8DAF-44E7-8DEA-70A27DF82F9E}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {6A8C213C-8DAF-44E7-8DEA-70A27DF82F9E}
 	EndGlobalSection
 EndGlobal
