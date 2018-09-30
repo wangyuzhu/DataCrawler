@@ -1,0 +1,65 @@
+[
+    {
+        "Multiple": true,
+        "Field": "ElementXPath",
+        "XPath": "//div[@class='data-list sy_tj_list show']/dl"
+    },
+    {
+        "Field": "FromUrlXPath",
+        "XPath": "dt/a",
+        "Attr": "href"
+    },
+    {
+        "Field": "ImgXPath",
+        "XPath": "dt/a/img",
+        "Attr": "src"
+    },
+    {
+        "Field": "SummaryXPath",
+        "XPath": "dd/p",
+        "Type": "text"
+    },
+    {
+        "Field": "FromNameXPath",
+        "XPath": "dd/div[@class='fx_tm']/span[@class='tp']",
+        "Type": "text",
+        "ReplaceWords": [
+            {
+                "Key": "来源：",
+                "Value": ""
+            }
+        ]
+    },
+    {
+        "Field": "AuthorXPath",
+        "XPath": "dd/div[@class='fx_tm']/span[@class='tp']",
+        "Type": "text",
+        "ReplaceWords": [
+            {
+                "Key": "来源：",
+                "Value": ""
+            }
+        ]
+    },
+    {
+        "Field": "ShowDateXPath",
+        "XPath": "dd/div[@class='fx_tm']/span[@class='tp']",
+        "Type": "text"
+    },
+    {
+        "Field": "TitleXPath",
+        "XPath": "dd/h4/a",
+        "Type": "text",
+        "ReplaceWords": [
+            {
+                "Key": "aaaa",
+                "Value": "bbb"
+            },
+            {
+                "Key": "aaaa",
+                "Value": "bbb"
+            }
+        ],
+        "RemoveXPath": "div[@class='aa']||div[@class='bb']" //针对当前节点
+    }
+]

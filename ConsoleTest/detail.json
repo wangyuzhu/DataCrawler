@@ -1,0 +1,46 @@
+[
+    {
+        "Field": "TitleXPath",
+        "XPath": "//div[@class='new_tit']/h1",
+        "Type": "text",
+        "ReplaceWords": [
+            {
+                "Key": "aaaa",
+                "Value": "bbb"
+            },
+            {
+                "Key": "aaaa",
+                "Value": "bbb"
+            }
+        ],
+        "RemoveXPath": "div[@class='aa']||div[@class='bb']" //针对当前节点
+    },
+    {
+        "Field": "SummaryXPath",
+        "XPath": "//div[@class='zhaiyaos']/p",
+        "Type": "text"
+    },
+    {
+        "Field": "FromNameXPath",
+        "XPath": "//div[@class='new_tit_ch']/span[1]",
+        "Type": "text",
+        "ReplaceWords": [
+            {
+                "Key": "来源：",
+                "Value": ""
+            }
+        ]
+    },
+    {
+        "Field": "ShowTimeXPath",
+        "XPath": "//div[@class='new_tit_ch']/span[2]",
+        "Type": "text"
+    },
+    {
+        "Field": "DescriptionXPath",
+        "XPath": "//div[@class='xw_cont']",
+        "Type": "html",
+        "RemoveHtmlAttrs": true,
+        "RemoveHtmlLink": true
+    }
+]
